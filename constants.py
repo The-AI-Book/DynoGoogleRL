@@ -1,0 +1,11 @@
+GAMMA_FACTOR = 0.5                         # Discounted factor.
+LEARNING_RATE = 0.8                 # Learning rate. 
+MIN_EXPERIENCE_REPLAY_SIZE = 5000     # Min mini batch size.
+MINI_BATCH_SAMPLE_SIZE = 128
+EPSILON_VALUE = 0.2                   # Epsilon value for the policy
+IMG_DIM_X = 254                     # Image new dim.
+IMG_DIM_Y = 150                     # Image new dim.
+WEIGHTS_PATH = "./weights/dyno-dqn.h5"
+MAX_LENGTH_MEMORY_REPLACE = 20000
+EPSILON_DECAY = 0.995
+EPSIODES_TO_SAVE_MODEL = 10
